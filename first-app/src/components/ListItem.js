@@ -1,9 +1,10 @@
 import React from "react";
 
-const ListItem = ({ currentItem }) => {
+const ListItem = ({ myItem: aditya }) => {
   return (
     <div>
-      <h3>{currentItem.name}</h3> <span>{currentItem.price}</span>
+      <h3>Name is: {aditya.name}</h3>
+      <span>Price is: {aditya.price}</span>
     </div>
   );
 };

@@ -23,15 +23,9 @@ const List = () => {
 
   return (
     <div>
-      <h1
-        style={{
-          color: "red",
-        }}
-      >
-        Shopping List
-      </h1>
+      <h1>Shopping List</h1>
       {items.map((item, index) => (
-        <ListItem currentItem={item} key={index} />
+        <ListItem key={index} myItem={item} name={"Shantanu"} />
       ))}
     </div>
   );
