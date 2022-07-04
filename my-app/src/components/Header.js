@@ -14,6 +14,9 @@ class Header extends Component {
       <Link to={"/sign-up"}>
         <nav className="header-el">SignUp</nav>
       </Link>
+      <Link to={"/items"}>
+        <nav className="header-el">Items</nav>
+      </Link>
     </header>
   );
 }
